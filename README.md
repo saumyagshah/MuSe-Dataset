@@ -39,4 +39,6 @@ We have used [__Andrea Censi__](https://censi.science/) 's  ```csm``` and ```cal
 
 ## Extract backend from Google Cartographer
 1. Install [__Cartographer__](https://google-cartographer-ros.readthedocs.io/en/latest/) and make sure that it runs on the data for which the data is to be extracted.
-2. Replace ```catkin_ws/src/cartographer_ros/cartographer_ros/map_builder_bridge.cc``` in Cartographer with ```cartographer/map_builder_bridge.cc``` provided in this repository to get the backend data for the dataset.  
+2. Replace ```catkin_ws/src/cartographer_ros/cartographer_ros/map_builder_bridge.cc``` in Cartographer with ```cartographer/map_builder_bridge.cc``` provided in this repository. Run Cartographer for your data with the aforementioned changes.
+3. You will get a file ```info.txt```. Place it in the same directory as ```extract-backend.py``` provided in this directory and execute this Python script.
+4. A new file ```isam_reordered.txt``` will be created which contains the required backend data.
