@@ -30,7 +30,7 @@ The data collected includes the data from the following sensors:
 </p>
 
 ## Calibration of LIDAR and Odometry
-We have used [__Andrea Censi__](https://censi.science/) 's  ```csm``` and ```calibration``` packages to perform calibration of the LIDAR and Odomtery parameters. The present project an RPLIDAR A1 development kit by robot peak  which contains the RPLIDAR (2D Laser Scanner). 
+We have used [__Andrea Censi__](https://censi.science/) 's  ```csm``` and ```calibration``` packages to perform calibration of the LIDAR and Odometry parameters. The present project an RPLIDAR A1 development kit by robot peak  which contains the RPLIDAR (2D Laser Scanner). 
 ### Instructions for performing calibration:
 1. Install the ```csm``` and ```calibration``` packages mentioned above.
 2. Clone the repository and replace ```calibration/matlab_calibration_script/test_c1.bag``` with your bag file containing LIDAR and Odometry data.
