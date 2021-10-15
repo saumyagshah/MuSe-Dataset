@@ -1,7 +1,7 @@
 # MuSe-Dataset
 ## Overview
 
-The objective of this project was to develop a dataset repository with sensors and provide it to the robotics community on which various algorithms can be tested and verified. The dataset presently collected and discussed in the report comprises of data collected froma single robot system for calibration and verificaton purposes.
+The objective of this project was to develop a dataset repository with sensors and provide it to the robotics community on which various algorithms can be tested and verified. The dataset presently collected and discussed in the report comprises of data collected from a single robot system for calibration and verificaton purposes.
 
 The datasets being collected comprises of a setup of various sensors
 which are discussed in the upcoming chapters. The whole repository
